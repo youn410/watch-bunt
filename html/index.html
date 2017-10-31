@@ -4,6 +4,14 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<title>WATCH BUNT</title>
+		<script src="../js/jquery-3.2.1.min.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+		<script src="../js/require.js"></script>
+		<script>
+			require(["/webiopi.js", "../js/servo.js"], function(){
+				webiopi().ready(initialize_webiopi)
+			});
+		</script>
 	</head>
 	<body>
 		<div id="pan-slider"></div>

@@ -1,0 +1,11 @@
+button {
+	display: block;
+	margin: 3px;
+	height: 45px;
+	width: 80px;
+}
+
+#pan-slider{
+	width: 300px;
+	margin: 0 10px;
+}
